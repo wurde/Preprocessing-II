@@ -1,0 +1,29 @@
+/* CSS styles for mobile devices */
+
+@media @mobile {
+  .container {
+    width: 95%;
+  }
+
+  .row {
+    .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1 {
+      width: 100%;
+    }
+  }
+
+  .text-sm-center {
+    text-align: center;
+  }
+
+  .btn-green {
+    background-color: @eastern-blue;
+  }
+
+  .flex-sm-column-reverse {
+    flex-direction: column-reverse;
+  }
+
+  .anim-sm-text-shadow-drop-bl {
+    .anim-text-shadow-drop-bl(0.8s);
+  }
+}
