@@ -35,7 +35,6 @@ Fun Bus is a travel agency looking for some help on their website.  They want a 
 * [ ] Main Header: Use the `home-page.less` file for the header styling.
 * [ ] Buttons: Create a parametric mixin that can create the missing buttons in the design file. Use the `mixins.less` file to create your mixin.
 
-
 ## Task 5: Mobile Updates Needed
 
 * [ ] Use escaping to create a variable named `@mobile` that contains this value: `(max-width: 500px)`.  Use the `variables.less` file to house your styling.
