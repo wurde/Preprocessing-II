@@ -441,6 +441,15 @@ img {
 .rounded {
   border-radius: 10px;
 }
+/* Re-usable class-based CSS styles for buttons */
+.btn-green {
+  background-color: #097774;
+  padding: 15px 30px;
+  border-radius: 12px;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.6rem;
+}
 header nav h3 {
   font-size: 4rem;
 }
