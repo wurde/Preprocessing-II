@@ -1,6 +1,17 @@
 /*
   Imports
 */
+@keyframes text-shadow-drop-bl {
+  0% {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  50% {
+    text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.35);
+  }
+  100% {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
 /*
    http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -545,5 +556,8 @@ header nav a {
   }
   .flex-sm-column-reverse {
     flex-direction: column-reverse;
+  }
+  .anim-sm-text-shadow-drop-bl {
+    animation: text-shadow-drop-bl 0.8s both;
   }
 }
