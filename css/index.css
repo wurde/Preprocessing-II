@@ -432,6 +432,11 @@ img {
 .pl-3 {
   padding-left: 20px;
 }
+/* Re-usable class-based CSS styles for line breaks */
+.hr-dashed {
+  border: 1px dashed #C0C0C0;
+  margin: 0px;
+}
 header nav h3 {
   font-size: 4rem;
 }
