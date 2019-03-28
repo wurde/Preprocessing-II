@@ -540,4 +540,7 @@ header nav a {
   .text-sm-center {
     text-align: center;
   }
+  .btn-green {
+    background-color: #17A2B8;
+  }
 }
