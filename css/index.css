@@ -543,4 +543,7 @@ header nav a {
   .btn-green {
     background-color: #17A2B8;
   }
+  .flex-sm-column-reverse {
+    flex-direction: column-reverse;
+  }
 }
